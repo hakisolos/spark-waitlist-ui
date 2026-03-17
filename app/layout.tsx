@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SPARKDB ",
+  title: "SPARK DB ",
   description: "Database Running In Seconds | Join wa",
 };
 export default function RootLayout({
