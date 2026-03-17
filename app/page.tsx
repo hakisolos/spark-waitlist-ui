@@ -3,7 +3,7 @@ import Nav from "@/component/nav";
 import HeroSection from "@/component/Hero";
 import SDKSection from "@/component/Sdk";
 import SimulatorSection from "@/component/Sim";
-import { SchemaSection,SchemaViewer } from "@/component/SchemaVis";
+import { SchemaSection } from "@/component/SchemaVis";
 import WaitlistSection from "@/component/waitlist";
 import { GLOBAL_CSS } from "./utils";
 function Footer() {
