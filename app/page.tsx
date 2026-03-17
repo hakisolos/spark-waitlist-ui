@@ -1,20 +1,4 @@
 "use client";
-
-import React, { useState, useEffect, useRef, useCallback } from "react";
-import type { DBInstance } from "./types";
-
-import { DB_TYPES,REGIONS,JS_LINES,PY_LINES,PG_ROWS,MONGO_DOC,REDIS_DATA,useInView} from "./utils";
-import { 
-  Spinner, 
-  CopyIcon, 
-  CheckIcon, 
-  TrashIcon, 
-  ChevronDown, 
-  ArrowRight, 
-  PlayIcon, 
-  DBIcon,
-  CodeLine
-} from "./items";
 import Nav from "@/component/nav";
 import HeroSection from "@/component/Hero";
 import SDKSection from "@/component/Sdk";
